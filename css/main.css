@@ -1,0 +1,31 @@
+.dishTile:active{
+	border:2px solid black;
+	border-radius: 10px;
+}
+
+.sectionHeader{
+	border: 2px solid green;
+	border-radius: 25px;
+	
+	padding-right:10pt;
+	padding-left:10pt;
+	
+	margin-bottom:10pt;
+}
+
+.sectionDescription{
+	color: gray;
+	font-style: italic;
+}
+
+#dishForm input.ng-invalid.ng-touched{
+	border:3px solid red;
+	background: rgba(255, 0, 0, .2);
+	color:black;
+}
+
+#sectionForm input.ng-invalid.ng-touched{
+	border:3px solid red;
+	background: rgba(255, 0, 0, .2);
+	color:black;
+}
